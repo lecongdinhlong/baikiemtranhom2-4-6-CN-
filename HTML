@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+
+            .flex-container > * {
+                padding: 15px;
+                -webkit-flex: 1 100%;
+                flex: 1 100%;
+            }
+
+        .article {
+            text-align: left;
+        }
+
+        header {
+            background: black;
+            color: white;
+        }
+
+        footer {
+            background: #aaa;
+            color: white;
+        }
+
+        .nav {
+            background: #eee;
+        }
+
+            .nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+                .nav ul a {
+                    text-decoration: none;
+                }
+
+        @media all and (min-width: 768px) {
+            .nav {
+                text-align: left;
+                -webkit-flex: 1 auto;
+                flex: 1 auto;
+                -webkit-order: 1;
+                order: 1;
+            }
+
+            .article {
+                -webkit-flex: 5 0px;
+                flex: 5 0px;
+                -webkit-order: 2;
+                order: 2;
+            }
+
+            footer {
+                -webkit-order: 3;
+                order: 3;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <header>
+            <h1>Shop thú cưng BiBi</h1>
+            <td colspan="3"><img src="NỀN LTW.JPG"></td>
+        </header>
+        <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+
+                body {
+                    margin: 0;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                .topnav {
+                    overflow: hidden;
+                    background-color: #e9e9e9;
+                }
+
+                    .topnav a {
+                        float: left;
+                        display: block;
+                        color: black;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                    }
+
+                        .topnav a:hover {
+                            background-color: #ddd;
+                            color: black;
+                        }
+
+                        .topnav a.active {
+                            background-color: #2196F3;
+                            color: white;
+                        }
+
+                    .topnav .search-container {
+                        float: right;
+                    }
+
+                    .topnav input[type=text] {
+                        padding: 6px;
+                        margin-top: 8px;
+                        font-size: 17px;
+                        border: none;
+                    }
+
+                    .topnav .search-container button {
+                        float: right;
+                        padding: 6px;
+                        margin-top: 8px;
+                        margin-right: 16px;
+                        background: #ddd;
+                        font-size: 17px;
+                        border: none;
+                        cursor: pointer;
+                    }
+
+                        .topnav .search-container button:hover {
+                            background: #ccc;
+                        }
+
+                @media screen and (max-width: 600px) {
+                    .topnav .search-container {
+                        float: none;
+                    }
+
+                        .topnav a, .topnav input[type=text], .topnav .search-container button {
+                            float: none;
+                            display: block;
+                            text-align: left;
+                            width: 100%;
+                            margin: 0;
+                            padding: 14px;
+                        }
+
+                    .topnav input[type=text] {
+                        border: 1px solid #ccc;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+
+            <div class="topnav">
+                <a class="active" href="#home">Trang chủ Shop BiBi</a>
+                <a href="#about">Shop cún</a>
+                <a href="#about">Shop mèo</a>
+                <a href="#about">Về chúng tôi</a>
+                <a href="#contact">Liên hệ</a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Tìm kiếm.." name="search">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">CÚN CƯNG</a></li>
+                    <li><a href="#">MÈO CƯNG</a></li>
+                    <li><a href="#">PET ĐỘC QUYỀN</a></li>
+                    <li><a href="#">MẠNG XÃ HỘI</a></li>
+
+
+                    <li><a href="#"> LIÊN HỆ </a></li>
+                    </style>
+                    </head>
+                    <body>
+
+                        <div class="form">
+                            <form action="" id="form1">
+                                <input type="text" id="fname" name="fname" placeholder="Họ tên"><br>
+                                <input type="text" id="femail" name="femail" placeholder="Địa chỉ Email"><br>
+                                <input type="text" id="fcontent" name="fcontent" placeholder="Nội dung yêu cầu"><br>
+                                <input type="submit" value="Gửi yêu cầu">
+                            </form>
+                        </div>
+                    </body>
+</html>
+            </ul>
+        </nav>
+
+        <article class="article">
+            <h1>TIN MỚI</h1>
+            <p><b>Mở rộng chi nhánh</b></p>
+            <p><i>@ĐịnhLong-Ngày 24/3/2024</i></p>
+            <img src="chinhanh.jpg" height="250px" width="250px" alt="" />
+            <p>Shop đã mở rộng 100 chi nhánh ở toàn quốc với 15 tỉnh thành.Với kinh nghiệm kinh doanh thú cưng hơn 20 năm. Pet shop cam kết đem lại trải nghiệm số 1 cho quý khách hàng</p>
+
+            <p><b>Cặp nhật Pet hot</b></p>
+            <p><i>@ĐịnhLong-Ngày 25/3/2024</i></p>
+            <img src="pethiem.jpg" height="250px" width="250px" alt="" />
+            <p>Liên tục cập nhật những giống pet hot và đạt chuẩn kiểm đinh quốc tế.</p>
+
+            <p><b>Chú trọng chất lượng nhân viên hàng đầu</b></p>
+            <p><i>@ĐịnhLong-Ngày 27/3/2024</i></p>
+            <img src="nhanvien.jpg" height="250px" width="250px" alt="" />
+            <p>Liên tục cải thiện đội ngũ nhân viên.</p>
+
+        </article>
+<footer>Copyright &copy; Shopbibipet.com</footer>
+    </div>
+</body>
+</html>
